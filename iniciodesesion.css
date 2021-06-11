@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    
+  }
+  p{color: rgba(167, 167, 167, 0.829);}
+  h3{color: rgb(221, 221, 221); }
+  .box{
+    width: 300px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: rgba(10, 10, 10, 0.87);
+    text-align: center;
+  }
+  .box h1{
+    color: white;
+    
+    font-weight: 500;
+  }
+  .box input[type = "nombre"],.box input[type = "contraseña"]{
+    border:0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+  }
+  .box input[type = "nombre"]:focus,.box input[type = "contraseña"]:focus{
+    width: 220px;
+    border-color: white;
+    
+  }
+  .box input[type = "submit"]{
+    border:0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid red;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+  }
+  .box input[type = "submit"]:hover{
+      border-color: white;
+    background: rgba(255, 255, 255, 0.11);
+    color: black;
+    font-weight: bold;
+  }
+  
